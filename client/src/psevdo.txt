@@ -1,0 +1,114 @@
+"Imgs":[
+	type: img
+	elems:[
+	{src: https://avatars.githubusercontent.com/u/72187966?v=4}
+	{src: https://react-pdf.org/images/logo.png}
+	{src: https://metanit.com/web/html5/pics/9.7.png}
+]
+
+"Inputs":[
+	type: input
+	elems:[
+	{items: 1,2,3,4}
+	{items: 5,6}
+]
+
+"Links":[
+        type: link
+	elems:[
+	{name: vadim, link: https://avatars.githubusercontent.com/u/72187966?v=4}
+	{name: img_pdf, link: https://react-pdf.org/images/logo.png}
+	{name: form metanite, link: https://metanit.com/web/html5/pics/9.7.png}
+]
+
+"Dates":[
+	type: datepicker
+	elems:[
+	{date: 10.13.2000}
+	{date: 10.13.2021}
+]
+
+"Times":[
+	type: timepicker
+	elems:[
+	{time: 14:13:20}
+	{time: 10:15:20}
+]
+
+"Expireds":[
+	type: expired
+	elems:[
+	{expiredAt: 21:13:20}
+	{expiredAt: 21:15:20}
+]
+
+"WithCheckBoxs":[
+	type: withCheckBox
+	elems:[
+	{name: vadim}
+	{name: img_pdf}
+	{name: form metanite}
+]
+
+"Sublists":[
+	type: sublist
+	elems:[
+	{name: img_pdf, 
+		elems:[
+		{name: good}
+		{name: good1}
+		]}
+	]}
+]
+
+"Enter the name of the list here":
+draggable: false
+disabled: false
+editable: false
+type: sublist
+
+elems: [
+{href: Expireds}
+{href: Times}
+{href: Dates}
+{href: Imgs}
+{name: 10:10:21,
+	elems:[
+	{href: Sublists}
+	{name: asdasd}
+	{name: asdasd}
+	{name: 10:10:21, 
+		elems:[
+		{href: WithCheckBoxs}
+		{name: asdasd}
+		{name: 10:10:21, 
+			elems:[
+			{name: 10:10:21, 
+				elems:[
+				{name: asdasd}
+				{name: asdasd}
+			]}
+			{name: asdasd}
+			{name: 10:10:21, 
+				elems:[
+				{href: Inputs}
+				{name: asdasd}
+				{name: asdasd}
+				{href: Inputs}
+			]}
+			{name: sdjfsdio}
+		]}
+		{href: Inputs}
+		{name: fgoid}
+	]}	
+	{name: dfuigo}
+]}
+{name: 10:10:21, 
+	elems:[
+	{name: asdasd}
+	{name: asdasd, 
+		elems:[{name:123}]}
+	{name: 10:10:21}
+]}
+{href: Links}
+]
